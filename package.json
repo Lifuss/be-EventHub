@@ -2,7 +2,7 @@
   "name": "backend",
   "version": "0.0.0",
   "description": "Rest API of Event",
-  "main": "dist/server.js",
+  "main": "./dist/server.js",
   "scripts": {
     "build": "npm install && tsc",
     "start": "cross-env NODE_ENV=production node ./dist/server.js",
